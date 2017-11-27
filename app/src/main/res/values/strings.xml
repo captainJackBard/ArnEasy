@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">ArnEasy</string>
+    <string-array name="arnis_rules">
+        <item>Opponents will begin and end all matches with a salute or bow to each other and the judges. </item>
+        <item>Opponents will begin and end all matches with a salute or bow to each other and the judges. </item>
+        <item>Only attacks with the stick and feet are allowed. </item>
+        <item>Hits, slashes, and witticks are all legal. Punots, pokes and stabs are all illegal. </item>
+        <item>Target areas are: \n
+            1) front and sides of the body, \n
+            2) arms and hands, \n
+            3) top, front and sides of the helmet.
+        </item>
+        <item>Kicks are allowed below the neck and above the waist only.</item>
+        <item>In single stick competition, it is NOT legal to block a stick with your free hand. However, “arm stopping” at quarto range or arm checking is allowed.</item>
+        <item>Fighters are required to exhibit a realistic defense (movement, parrying, intelligent blocking…) </item>
+        <item>No takedowns. No grappling, wrestling or hooking. </item>
+        <item>No pushing or striking with any part of your body. </item>
+        <item>No foot sweeps or throws, thrusting or butt strikes, 2 handed strikes. </item>
+        <item>No strikes or kicks below the waistline or direct strikes to the back. </item>
+        <item>No kicks below the waist or above the neck. </item>
+        <item>No knee strikes or elbow strikes. </item>
+        <item>Checks may be used to create distance but may NOT be directed to the face. Checks are allowed below the neck and above the waist free hand or two hands on weapon (AKA rifle checking). </item>
+        <item>Trapping and parrying are allowed. Locking and holding are not. </item>
+        <item>An instantaneous “Hold and Hit” with immediate release is allowed. </item>
+        <item>In the event inaction or ineffective action in the clinch, referee will call time and break clinch. </item>
+        <item>Disarms must be immediate, or have an immediate release (1 – 2 rule applies).</item>
+        <item>Joints may not be locked or twisted for a disarm. </item>
+        <item>You may use the ring to control the action. You may not use it to avoid action. </item>
+        <item>To signal surrender or stop action for an injury, equipment failure, etc., raise both hands and back up. Do not turn away. </item>
+    </string-array>
+</resources>

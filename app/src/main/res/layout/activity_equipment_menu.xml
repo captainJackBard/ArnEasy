@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.codetemple.arneasy.EquipmentMenuActivitiy">
+
+    <Button
+        android:id="@+id/btnStick"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_marginTop="30dp"
+        android:text="Wooden Stick"
+        android:layout_below="@+id/btnBodyProtector"
+        android:layout_alignLeft="@+id/btnBodyProtector"
+        android:layout_alignStart="@+id/btnBodyProtector" />
+
+    <Button
+        android:id="@+id/btnHeadProtector"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/btnStick"
+        android:layout_alignStart="@+id/btnStick"
+        android:layout_below="@+id/btnStick"
+        android:layout_marginTop="30dp"
+        android:text="Head Protector" />
+
+    <Button
+        android:id="@+id/btnForearm"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignLeft="@+id/btnHeadProtector"
+        android:layout_alignStart="@+id/btnHeadProtector"
+        android:layout_below="@+id/btnHeadProtector"
+        android:layout_marginTop="26dp"
+        android:text="Forearm and chin guard" />
+
+    <Button
+        android:id="@+id/btnBodyProtector"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="31dp"
+        android:text="Body Protector" />
+</RelativeLayout>

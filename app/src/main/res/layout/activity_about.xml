@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="net.codetemple.arneasy.AboutActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="190dp"
+        android:layout_height="70dp"
+        android:layout_marginLeft="8dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="16dp"
+        android:text="About Arnis"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="348dp"
+        android:layout_height="383dp"
+        android:layout_marginBottom="16dp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="8dp"
+        android:layout_marginTop="8dp"
+        android:text='Arnis, also known as Kali or Eskrima, is the national sport and martial art of the Philippines. The three are roughly interchangeable umbrella terms for the traditional martial arts of the Philippines ("Filipino Martial Arts", or FMA) that emphasize weapon-based fighting with sticks, knives, bladed weapons and various improvised weapons as well as "open hand" or techniques without weapons. It is also known as Estoque (Spanish for rapier), Estocada (Spanish for thrust or stab) and Garrote (Spanish for club). In Luzon they may go by the name of Arnis de Mano.'
+        android:textSize="18sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.6"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.693" />
+
+</android.support.constraint.ConstraintLayout>
