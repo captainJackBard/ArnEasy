@@ -5,11 +5,12 @@ import android.os.Bundle;
 import android.widget.ListAdapter;
 import android.widget.ListView;
 
+import org.androidannotations.annotations.AfterViews;
 import org.androidannotations.annotations.EActivity;
 import org.androidannotations.annotations.ViewById;
 import org.androidannotations.annotations.res.StringArrayRes;
 
-@EActivity
+@EActivity(R.layout.activity_rules)
 public class RulesActvity extends AppCompatActivity {
 
     @ViewById(R.id.rulesListView)
@@ -18,11 +19,8 @@ public class RulesActvity extends AppCompatActivity {
     @StringArrayRes(R.array.arnis_rules)
     String[] rulesArray;
 
-    @Override
-    protected void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_rules);
-
+    @AfterViews
+    void initialize() {
         ListAdapter rulesAdapter = new CustomAdapter(this, rulesArray);
         rulesList.setAdapter(rulesAdapter);
     }

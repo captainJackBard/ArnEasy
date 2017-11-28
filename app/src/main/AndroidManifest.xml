@@ -22,7 +22,9 @@
         <activity android:name=".BodyProtectorActivity_" />
         <activity android:name=".WoodenStickActivity_" />
         <activity android:name=".HeadProtectorActivity_" />
-        <activity android:name=".ForearmActivity_"></activity>
+        <activity android:name=".ForearmActivity_" />
+        <activity android:name=".Strikes_" />
+        <activity android:name=".TipsAndTricksActivity_"></activity>
     </application>
 
 </manifest>
